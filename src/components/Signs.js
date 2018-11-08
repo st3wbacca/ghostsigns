@@ -2,15 +2,8 @@ import React from 'react';
 import Sign from './Sign';
 import { Row, Col } from 'antd';
 
-const Signs = ({ signs }) => {
+const Signs = ({ signs, onClick }) => {
 	return (
-		/*<div>
-		<Sign
-			image='./images/fernando-venzano-1052414-unsplash.jpg'
-			title='B and C Restaurant Supply'
-			description='Photo by Fernando Venzano on Unsplash'
-		/>
-		</div>*/
 		<div>
 			<Row>
 				{
@@ -22,6 +15,7 @@ const Signs = ({ signs }) => {
 									image={sign.image}
 									title={sign.title}
 									description={sign.description}
+									onClick={onClick}
 								/>
 							</Col>
 						);

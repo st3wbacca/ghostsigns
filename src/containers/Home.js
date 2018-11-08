@@ -7,10 +7,11 @@ class Home extends Component {
 		super();
 		this.data = data;
 	}
+
 	render() {
 		return (
 			//somewhere before he we will get all the ghost signs and pass it to signs
-			<Signs signs={this.data}/>
+			<Signs onClick={this.props.onClick} signs={this.data}/>
 		)
 	}
 }
