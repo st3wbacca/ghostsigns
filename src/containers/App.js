@@ -3,15 +3,13 @@ import './App.css';
 import Home from './Home';
 import Tours from './Tours';
 import Contact from './Contact';
-import data from '../data.js';
 
 import { Layout, Menu } from 'antd';
 
 const { Header, Content, Footer } = Layout;
 const initialState = {
-  theme: 'light',
+  theme: 'dark',
   route: 'home',
-  data: data,
 
 }
 
@@ -19,7 +17,6 @@ class App extends Component {
   constructor() {
     super();
     this.state = initialState;
-    console.log(this.state.data);
   }
 
   renderContent(route) {
@@ -32,6 +29,7 @@ class App extends Component {
   }
 
   render() {
+    const { theme, route } = this.state;
     return (
       <div className="App">
         <Layout className="layout">
@@ -41,7 +39,7 @@ class App extends Component {
               width: '100%',
           }}>
             <Menu
-              theme={this.state.theme}
+              theme={theme}
               mode="horizontal"
               defaultSelectedKeys={['home']}
               style={{ lineHeight: '64px' }}
@@ -52,7 +50,7 @@ class App extends Component {
             </Menu>
           </Header>
           <Content style={{ padding: '75px 50px' }}>
-            {this.renderContent(this.state.route)}
+            {this.renderContent(route)}
           </Content>
           <Footer>
             <p>Stuart Busilla ©2018</p>
