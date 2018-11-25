@@ -20,6 +20,6 @@ const Sign = ({image, title, description, onClick}) => {
 			/>
 		</Card>
 	);
-}
+};
 
 export default Sign;

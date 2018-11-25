@@ -20,6 +20,6 @@ const Signs = ({ signs, onClick }) => {
 			}
 		</div>
 	);
-}
+};
 
 export default Signs;

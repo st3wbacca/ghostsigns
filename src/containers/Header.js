@@ -23,16 +23,14 @@ class Header extends Component {
 				position: 'fixed',
 				zIndex: 1,
 				width: '100%',
-				}}>
+			}}>
 				<Switch>
-					<Route exact path='/' render={
-						(props) => <Nav theme={this.state.theme} route='home' />
-					}/>
+					<Route exact path='/' render={(props) => <Nav theme={this.state.theme} route='home' />}/>
 					<Route exact path='/tours' render={(props) => <Nav theme={this.state.theme} route='tours' />}/>
 					<Route exact path='/contact' render={(props) => <Nav theme={this.state.theme} route='contact' />}/>
 				</Switch>
 			</Head>
-        );
+    );
 	};
 };
 
