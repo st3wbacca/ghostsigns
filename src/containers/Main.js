@@ -12,12 +12,12 @@ class Main extends Component {
 	render() {
 		return (
 			<Content style={{ padding: '75px 50px' }}>
-	        	<Switch>
-	            	<Route exact path='/' component={Home}/>
-	            	<Route exact path='/tours' component={Tours}/>
-	        		<Route exact path='/contact' component={Contact}/>
-	       		</Switch>
-	        </Content>
+      	<Switch>
+          <Route exact path='/' component={Home}/>
+          <Route exact path='/tours' component={Tours}/>
+      		<Route exact path='/contact' component={Contact}/>
+     		</Switch>
+      </Content>
 		);
 	};
 };
