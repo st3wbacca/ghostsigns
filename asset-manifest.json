@@ -1,7 +1,7 @@
 {
   "main.css": "/ghostsigns/static/css/main.62f05d14.chunk.css",
-  "main.js": "/ghostsigns/static/js/main.f035edd2.chunk.js",
-  "main.js.map": "/ghostsigns/static/js/main.f035edd2.chunk.js.map",
+  "main.js": "/ghostsigns/static/js/main.b1e817ac.chunk.js",
+  "main.js.map": "/ghostsigns/static/js/main.b1e817ac.chunk.js.map",
   "static/css/1.f95cb8a4.chunk.css": "/ghostsigns/static/css/1.f95cb8a4.chunk.css",
   "static/js/1.a4b41027.chunk.js": "/ghostsigns/static/js/1.a4b41027.chunk.js",
   "static/js/1.a4b41027.chunk.js.map": "/ghostsigns/static/js/1.a4b41027.chunk.js.map",
@@ -10,6 +10,6 @@
   "static/css/1.f95cb8a4.chunk.css.map": "/ghostsigns/static/css/1.f95cb8a4.chunk.css.map",
   "static/css/main.62f05d14.chunk.css.map": "/ghostsigns/static/css/main.62f05d14.chunk.css.map",
   "index.html": "/ghostsigns/index.html",
-  "precache-manifest.2310720b4c3d6a1ea39ee8fe47ca3608.js": "/ghostsigns/precache-manifest.2310720b4c3d6a1ea39ee8fe47ca3608.js",
+  "precache-manifest.57e17b68bb502ca9115ec90f08cd586e.js": "/ghostsigns/precache-manifest.57e17b68bb502ca9115ec90f08cd586e.js",
   "service-worker.js": "/ghostsigns/service-worker.js"
 }
